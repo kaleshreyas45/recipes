@@ -1,0 +1,262 @@
+
+body,html{
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Great Vibes', cursive;
+}
+span{
+   color:#007cff ;
+}
+.banner-heading{
+    position: relative;
+    color:white;
+    z-index: 2;
+    top:100px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.banner-para{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    z-index: 2;
+    top:110px;
+    font-size: 30px;
+}
+.banner{
+    position: relative;
+    background:url('/images/nadine-primeau--wMxr1Ginpo-unsplash.jpg') no-repeat center center/cover;
+    width:100%;
+    height:600px;
+    top:0px;
+}
+
+.banner-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:600px;
+    background:linear-gradient(to right, #011f70d8,#3d014dcb);
+    z-index:1;
+}
+.shape{
+    position: relative;
+   z-index: 1;
+}
+.custom-shape-divider-bottom-1618110981 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1618110981 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+}
+
+.custom-shape-divider-bottom-1618110981 .shape-fill {
+    fill: #0d0039;
+}
+
+.services h1{
+    color: white;
+}
+.animated-headline{
+    position: relative;
+    width:5px;
+    height:3px;
+    background-color: #007cff;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+ from{
+     width:5px;
+ }
+ to{
+     width:200px;
+ }
+}
+.services-boxes{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    width:400px;
+    height:300px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px #0d0039;
+
+}
+.inner-box img{
+    position: absolute;
+    width:400px;
+    height:300px;
+}
+.sliding-window{
+    position: relative; 
+    height:300px;
+    width:0px;
+    transition-property: all;
+    transition-duration: 1s;
+    background-color: #007cffa8;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sliding-window h2{
+    
+    position: absolute;
+    display: none;
+    width:300px;
+    color: white;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 2px solid #074485a6;
+    border-radius: 20px;
+    background-color: #022953a6;
+    color: white;
+    
+}
+.inner-box:hover .sliding-window{  
+    width:400px;
+}
+.inner-box:hover .sliding-window h2{
+   display: block;
+}
+.c2{
+    display: flex;
+    justify-content: space-between;
+}
+ .c2 .recipe{
+    margin-left: 20px;
+    margin-top:119px;
+}
+.c2 .recipe h1,p{
+    color: white;
+}
+
+.c2 .item img{
+    width:400px;
+    height:400px;
+}
+.c3{
+    display: flex;
+    justify-content: space-between;
+}
+ .c3 .recipe{
+    margin-left: 20px;
+    margin-top:119px;
+}
+.c3 .recipe h1,p{
+    color: white;
+}
+
+.c3 .item img{
+    width:400px;
+    height:400px;
+}
+.c4{
+    display: flex;
+    justify-content: space-between;
+}
+ .c4 .recipe{
+    margin-left: 20px;
+    margin-top:119px;
+}
+.c4 .recipe h1,p{
+    color: white;
+}
+
+.c4 .item img{
+    width:400px;
+    height:400px;
+}
+.read-more{
+    font-size: 18px;
+    width:150px;
+    height:50px;
+    background-color:transparent;
+    border:2px solid white;
+    color:white;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+}
+.read-more:hover{
+    background-color: #007cffa8;
+}
+.Contact-form{
+    position: relative;
+    background:url('/images/calum-lewis-vA1L1jRTM70-unsplash.jpg') no-repeat center center/cover;
+    width:100%;
+    height:600px;
+    top:0px;
+}
+.overlay{
+    position: relative;
+}
+
+.contact-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:600px;
+    background:linear-gradient(to right, #011f70d8,#032286cb);
+    z-index:1;
+}
+.content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact{
+    margin-top: 30px;
+    color: white;
+}
+form{
+    margin-top: 30px;
+}
+input{
+    width:400px;
+    height: 36px;
+    background-color: #022953a6;
+    border:1px solid #074485a6;
+    color:white;
+    border-radius: 20px;
+}
+input:active{
+    border: none;
+}
+input:focus{
+    border: none;
+}
+:placeholder-shown{
+    text-align: center;
+}
+.Submit{
+    width:400px;
+    height:46px;
+    background-color: #022953a6;
+    border:2px solid white;
+    border-radius: 20px;
+    color:white;
+    font-size:20px;
+}
