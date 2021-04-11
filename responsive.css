@@ -101,6 +101,12 @@
         width:350px;
         height:350px;
     }
+     .Contact-form{
+        margin-top: 40px;
+    }
+    .contact-overlay{
+        top:40px;
+    }
     input,.Submit{
         width:330px;
     }
