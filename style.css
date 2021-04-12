@@ -241,6 +241,7 @@ input{
     border:1px solid #074485a6;
     color:white;
     border-radius: 20px;
+    text-align : center;
 }
 input:active{
     border: none;
